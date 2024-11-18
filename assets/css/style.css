@@ -1,0 +1,118 @@
+/* Import Fonts CSS file */
+@import url('./fonts.css');
+@import url('./basic-needs.css');
+
+/* --------------------------- */
+/* START :: Header Section CSS */
+/* --------------------------- */
+.header-section {
+    height: 112px;
+    border-bottom: 2px solid #D49A49;
+
+    .container {
+        height: 100%;
+    }
+
+    .header-container {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+
+    .logo {
+        width: 186px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .navbar-container {
+        height: 100%;
+        display: flex;
+        margin-left: auto;
+        align-items: center;
+        margin-right: 20px;
+
+        nav {
+            height: 100%;
+            align-items: center;
+            display: flex;
+
+            &>ul {
+                display: flex;
+                align-items: center;
+                padding: 0;
+                gap: 30px;
+                /*  */
+                height: 100%;
+                align-items: center;
+                display: flex;
+
+                &>li {
+                    /*  */
+                    height: 100%;
+                    align-items: center;
+                    display: flex;
+
+                    &>.submenu-triger {
+                        &>a {
+                            display: flex;
+                            color: #1E1E1E;
+                            cursor: pointer;
+
+                            span {
+                                font-family: 'Poppins';
+                                font-size: 16px;
+                                font-weight: 600;
+                                line-height: 24px;
+                                letter-spacing: 0.10000000149011612px;
+                                text-align: center;
+                            }
+
+                            i {
+                                width: 28px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                            }
+                        }
+                    }
+
+                    &>.submenu {
+                        padding: 8px;
+                        border-radius: 4px;
+                        color: white;
+                        position: absolute;
+                        box-shadow: 0 0 3px grey;
+                        background: white;
+                        top: 80px;
+                        min-width: 200px;
+                        display: block;
+
+                        &>ul {
+                            padding: 0;
+
+                            li {
+                                width: 100%;
+
+                                a {
+                                    width: 100%;
+                                    display: block;
+                                    background: orange;
+                                    line-height: 30px;
+                                    padding: 04px 6px;
+                                    border-radius: 4px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* ------------------------- */
+/* END :: Header Section CSS */
+/* ------------------------- */
