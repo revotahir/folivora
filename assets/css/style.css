@@ -60,6 +60,21 @@
                     align-items: center;
                     display: flex;
 
+                    &.lang-selector {
+                        .submenu-triger {
+                            a {
+                                align-items: center;
+
+                                img {}
+                            }
+                        }
+
+                        img {
+                            width: 20px;
+                            margin-right: 7px;
+                        }
+                    }
+
                     /* background: red; */
                     &>.submenu-triger {
                         /* background: pink; */

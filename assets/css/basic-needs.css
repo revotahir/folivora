@@ -13,6 +13,10 @@ html {
     scroll-behavior: smooth;
 }
 
+img {
+    width: 100%;
+}
+
 /* Global Reusable Variables*/
 :root {
     --primary: #14552C;
